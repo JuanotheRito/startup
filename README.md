@@ -17,10 +17,10 @@ This application will act as a chess timer for multiple different people who are
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
+- [X] Proper use of Markdown
 - [X] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
+- [X] Description of key features
+- [X] Description of how you will use each technology
 - [X] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
@@ -50,17 +50,22 @@ sequenceDiagram
 - Round tracker
 - Ability to invite multiple people to a single game
 - Ability for host to pause game
+- Ability to randomly select a starting player
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Utilizes correct HTML structure for application. Page for login, and one for joining a game. Two in total
+- **CSS** - Application styling to look good on both mobile and desktop, clear styling to prioritize UI elements
+- **React** - Change display to game component, displays whose turn it is, displays how much time a use has left
+- **Service** - Backend service with endpoints for:
+  - login
+  - retrieving turn order
+  - submitting turn conclusions
+  - retrieving round number
+- **DB/Login** - Store users in database. Register and login users. Cannot join a game unless authenticated.
+- **WebSocket** - Whenever a user passes their turn, all users are notified of whose turn it is
 
 ## 🚀 AWS deliverable
 
