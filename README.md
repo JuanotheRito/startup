@@ -21,7 +21,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [X] A concise and compelling elevator pitch
 - [ ] Description of key features
 - [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [X] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
@@ -42,9 +42,14 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Login via HTTPS
+- Select game to play
+- Display of current players in the game
+- Ability to change time allowed to each player
+- Ability to display and change turn order
+- Round tracker
+- Ability to invite multiple people to a single game
+- Ability for host to pause game
 
 ### Technologies
 
