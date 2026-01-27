@@ -81,10 +81,10 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
 - [ ] **Links** - I did not complete this part of the deliverable.
 - [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
+- [X] **3rd party API placeholder** - 3rd party API will fetch information on a specific game and display it on the login screen.
 - [X] **Images** - I added a cover of Spirit Island to the Login page as part of a placeholder 3rd party API call. Dynamic images may or may not be a part of the final product. Also added a custom tab image. 
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
+- [X] **Login placeholder** - Login and Register buttons currently send those who click on it to the Join screen, password field uses standard password "dots" to hide password.
+- [X] **DB data placeholder** - The database will store games currently in progress as well as the players currently playing it.
 - [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
 
 ## 🚀 CSS deliverable
