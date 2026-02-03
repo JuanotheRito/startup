@@ -5,34 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BGTimer HTML</title>
     <link rel="icon" href="pawn.png" />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Include bootstrap CSS framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
-    <header>
-      <h1>BGTimer</h1>
+  <body class = "bg-light text-dark">
+    <header class = "container-fluid">
       <!-- Navigation elements -->
-      <nav>
-        <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="game.html">Game</a></li>
+      <nav class = "navbar fixed-top navbar-light">
+        <a class="navbar-brand" href="#">BGTimer</a>
+        <menu class = "navbar-nav">
+          <li class = "nav-item">
+            <a class = "nav-link active" href="index.html">Home</a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href="join.html">Join</a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href="game.html">Game</a>
+          </li>
         </menu>
       </nav>
-      <hr />
     </header>
 
-    <main>
+    <main class="container-fluid bg-secondary text-center">
       <h1>Welcome to BGTimer</h1>
       <form method="get" action="join.html">
-        <div>
-          <span>Email</span>
-          <input type="text" placeholder="your@email.com" />
+        <div class = "input-group mb-3">
+          <span class="input-group-text">Email</span>
+          <input class="form-control" type="text" placeholder="your@email.com" />
         </div>
-        <div>
-          <span>Password</span>
-          <input type="password" placeholder="password" />
+        <div class="input-group mb-3">
+          <span class="input-group-text">Password</span>
+          <input class="form-control" type="password" placeholder="password" />
         </div>
-        <button type="submit">Login</button>
-        <button type="submit">Register</button>
+        <button class="btn btn-primary" type="submit">Login</button>
+        <button class="btn btn-secondary" type="submit">Register</button>
       </form>
       <h2>Featured Game: Spirit Island</h2>
       <img src="spirit_island.webp" alt="Cover of Spirit Island" width = "200">
