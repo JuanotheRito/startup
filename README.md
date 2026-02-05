@@ -91,13 +91,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Visually appealing colors and layout. No overflowing elements.** - I did not complete this part of the deliverable.
-- [ ] **Use of a CSS framework** - I did not complete this part of the deliverable.
-- [ ] **All visual elements styled using CSS** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I did not complete this part of the deliverable.
-- [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
-
+- [X] **Visually appealing colors and layout. No overflowing elements.** - The color scheme is primarily bg-light and bg-body, and there are no overflowing elements visible on the website
+- [X] **Use of a CSS framework** - The styling of the website makes HEAVY use of bootstrap
+- [X] **All visual elements styled using CSS** - Most elements are styled using Bootstrap classes with styling done using raw CSS as needed
+- [X] **Responsive to window resizing using flexbox and/or grid display** Flexbox is used heavily throughout the website
+- [X] **Use of a imported font** - On the game section the Game: Terraforming Mars placeholder text is in Roboto imported from Google.
+- [X] **Use of different types of selectors including element, class, ID, and pseudo selectors** - Element, class, and ID selectors are used heavily throughout the CSS files
 ## 🚀 React part 1: Routing deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
