@@ -49,25 +49,34 @@
         <button class="btn btn-primary" type="submit">Login</button>
         <button class="btn btn-secondary" type="submit">Register</button>
       </form>
-      <h2>Featured Game: Spirit Island</h2>
-      <img src="spirit_island.webp" alt="Cover of Spirit Island" width = "200">
-      <p><b>BGG Ranking: 11</b><br>
-      <b>BGG Rating: 8.3</b><br>
-      <b>Type: Co-op Strategy</b><br>
-      <b>Player Count: 1 - 4</b><br>
-      <b>Best At: 2</b><br>
-      <b>Play Time: 90 - 120 Min</b><br>
-      <b>Recommended Age: 14+</b><br>
-      <b>Complexity Rating: Very High</b>
+      
+      <div class="card" id = "featured-game">
+        <h2 class="card-header">Featured Game: Spirit Island</h2>
+        <div id="picture" class="picture-box">
+         <img src="spirit_island.webp" alt="Cover of Spirit Island" width = "200">
+        </div>
+        <div id = "game-facts">
+          <p>
+            <b>BGG Ranking: 11</b><br>
+            <b>BGG Rating: 8.3</b><br>
+            <b>Type: Co-op Strategy</b><br>
+            <b>Player Count: 1 - 4</b><br>
+            <b>Best At: 2</b><br>
+            <b>Play Time: 90 - 120 Min</b><br>
+            <b>Recommended Age: 14+</b><br>
+            <b>Complexity Rating: Very High</b>
+          </p>
+        </div>
+      </div>
 
       
     </main>
 
     <footer>
-      <hr />
-      <span class="text-reset">Jacob Unalp</span>
-      <br />
-      <a href="https://github.com/JuanotheRito/startup">GitHub</a>
+      <div class="container-fluid">
+        <span class="text-reset">Jacob Unalp</span>
+        <a class="text-reset" href="https://github.com/JuanotheRito/startup">GitHub</a>
+      </div>
     </footer>
   </body>
 </html>
