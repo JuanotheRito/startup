@@ -49,3 +49,18 @@ li{
     margin-bottom: 0;
     text-align: left;
 }
+
+.controls-container .btn{
+    white-space: nowrap;
+}
+
+.btn-lg {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-sm {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
