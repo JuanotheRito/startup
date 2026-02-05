@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .player2{
     color: red
 }
@@ -6,4 +7,45 @@
 }
 .player4{
     color:green
+}
+
+.player-name{
+    color: blue
+}
+
+.players{
+    text-align: start
+}
+
+.game{
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.current-player{
+    border-bottom: thin solid gainsboro;
+    padding-bottom: 0.1em;
+    display: inline-block; 
+    margin-bottom: 0.5em;
+}
+
+main {
+  padding-top:1.5em;
+  flex: 1 calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-bottom: 1em;
+}
+
+li{
+    padding-bottom: 0.2em;
+}
+
+.notification{
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: left;
 }

@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BGTimer CSS</title>
   <link rel="icon" href="pawn.png" />
-
   <link rel="stylesheet" href="main.css" />
   <link rel="stylesheet" href="game.css" />
 
@@ -34,28 +33,29 @@
     </nav>
   </header>
 
-  <main  class="container-fluid bg-body text-center">
-    <div class="game">
-      Game: <span id="game-title">Terraforming Mars</span>
-    </div>
-    <div class="players">
-      Player:
-      <span class="player-name">Mystery Player</span>
-    </div>
-    <ul class="notification">
-      <li class="turn-notification"><b>It's your turn!</b></li>
-      <li class="pass-notification"><span class="player4">John</span> finished his turn.</li>
-      <li class="pass-notification"><span class="player3">Jacob</span> finished his turn.</li>
-      <li class="time-notification"><span class="player2">Luke's</span> time is up!</li>
-    </ul>
+  <main class="container-fluid bg-body">
+    <div class="d-flex justify-content-start pt-3">
+      <div class="players text-start">
+        <span class="current-player d-block">
+          Player:
+          <span class="player-name">Mystery Player</span>
+        </span>
 
-    <!-- More formatting with old style HTML -->
-    <br />
-
-    <table>
+        <ul class="notification list-unstyled mb-0">
+          <li class="turn-notification"><b>It's your turn!</b></li>
+          <li class="pass-notification"><span class="player4">John</span> finished his turn.</li>
+          <li class="pass-notification"><span class="player3">Jacob</span> finished his turn.</li>
+          <li class="time-notification"><span class="player2">Luke's</span> time is up!</li>
+        </ul>
+      </div>
+    </div>
+      <div class="game h3 my-4 text-center">
+        Game: <span id="game-title" font="Roboto">Terraforming Mars</span>
+      </div>
+    <table class="table table-striped-columns table-body">
       <thead>
         <tr>
-          
+
           <th>Name</th>
           <th>Turn Order</th>
           <th>Time</th>
@@ -63,25 +63,25 @@
       </thead>
       <tbody>
         <tr>
-          
-          <td class = "player-name"><b>Mystery Player</b></td>
+
+          <td class="player-name"><b>Mystery Player</b></td>
           <td><b>1st</b></td>
           <td><b>4:35</b></td>
         </tr>
         <tr>
-          <td class = "player2">Luke</td>
+          <td class="player2">Luke</td>
           <td>2nd</td>
           <td>5:00</td>
         </tr>
         <tr>
-          
-          <td class = "player3">Jacob</td>
+
+          <td class="player3">Jacob</td>
           <td>3rd</td>
           <td>5:00</td>
         </tr>
         <tr>
-          
-          <td class = "player4">John</td>
+
+          <td class="player4">John</td>
           <td>4th</td>
           <td>5:00</td>
         </tr>
