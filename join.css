@@ -3,4 +3,9 @@ td{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    align-content: center;
+}
+
+.open{
+    background-color: wheat !important;
 }
