@@ -10,9 +10,11 @@ header {
 
 footer{
   flex: 0 30px;
+  border-top: solid thin gainsboro;
 }
 
 main {
+  margin: 0;
   padding-top:1.5em;
   flex: 1 calc(100vh - 110px);
   display: flex;
@@ -27,6 +29,10 @@ menu {
   display: flex;
   flex-direction: row !important;
   list-style: none;
+}
+
+nav{
+  border-bottom: solid thin gainsboro;
 }
 
 .navbar-brand{
